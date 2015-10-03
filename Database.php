@@ -23,5 +23,5 @@ class Database extends PDO {
 		}
 		// If the instance already exists, this is returned.
 		return self::$instance;
-		}
+	}
 }
